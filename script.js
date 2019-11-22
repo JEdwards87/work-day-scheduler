@@ -1,8 +1,8 @@
 //display date and time at top of page
-let dateAndTime = moment().format("dddd, MMMM Do YYYY, h:mm a");
-$('#currentDay').append(dateAndTime);
+let date = moment().format("dddd, MMMM Do YYYY");
+$('#currentDay').append(date);
 let currentHour = moment().hour();
-console.log(dateAndTime);
+console.log(date);
 console.log(currentHour);
 //save button saves users text input in localStorage
 $(document).ready(function () {
