@@ -6,7 +6,7 @@ console.log(date);
 console.log(currentHour);
 //save button saves users text input in localStorage
 $(document).ready(function () {
-  const saveButton = $('.saveButton');
+  $('.saveButton');
   for (let i = 1; i < 10; i++) {
     $("#scheduleItem" + i).val(localStorage.getItem("scheduleItem" + i));
   }
