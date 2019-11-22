@@ -1,4 +1,4 @@
-//display date and time at top of page
+//display date at top of page
 let date = moment().format("dddd, MMMM Do YYYY");
 $('#currentDay').append(date);
 let currentHour = moment().hour();
