@@ -1,3 +1,12 @@
+Live Link:https://jedwards87.github.io/work-day-scheduler/
+
+This is a simple calender application that allows the user to plan their workday. It has time slot for each hour of the day and when text is entered and the save button is pressed the data is stored locally and will persist after the page is reloaded.
+
+
+
+![screenshot](https://user-images.githubusercontent.com/57024833/69401198-070d8b80-0cba-11ea-8723-bc830ef3d8c9.PNG)
+
+
 MIT License
 
 Copyright (c) [2019] [Jesse Edwards]
